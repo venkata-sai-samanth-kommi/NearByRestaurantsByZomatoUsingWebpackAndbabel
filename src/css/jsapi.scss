@@ -1,0 +1,54 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-container > div {
+    flex :1;
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .normalcard {
+    position : relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  .normalcard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .normalcontainer {
+    padding: 20px 16px;
+  }
+
+  .rimg,.toggle,.normalcontainer,.normalcontainer2{
+    flex:1;
+  }
+
+  .toggle
+  {
+    margin: 10px;
+  }
+  .normalcontainer2 {
+    margin-top: 1em;
+    position : absolute;
+    right: 0;
+    bottom :0;
+    padding: 2px 16px;
+    align-items: bottom;
+  }
+
+  footer {
+    bottom: 0 !important;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 1.5em;
+    position: relative;
+    width: 100%;
+    margin-bottom: 0px ;
+}
